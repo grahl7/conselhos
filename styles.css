@@ -1,0 +1,138 @@
+/* New custom styles */
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.large-text {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #333;
+}
+
+/* Additional custom styles can be added here */
+
+/* Reset margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body style (existing styles) */
+/* ... (include your existing body styles here) */
+
+/* Header style (existing styles) */
+/* ... (include your existing header styles here) */
+
+/* Advice container style (existing styles) */
+/* ... (include your existing advice container styles here) */
+
+/* Button style (existing styles) */
+/* ... (include your existing button styles here) */
+
+/* Reset margin and padding */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body style */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url(graduationfundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: #694A41; /* Dark brown for text */
+}
+
+/* Header style */
+header {
+    background: #F8EFE3; /* Light pastel brown for the background */
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    width: 20%;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-top: 0px;
+}
+
+/* Advice container style */
+.advice-container {
+    margin: 20px auto;
+    padding: 20px;
+    border: 6px solid #F8EFE3; /* Match the header background color */
+    border-radius: 50px;
+    max-width: 600px;
+    background-color: #D8CDBD; /* Light pastel brown for the background */
+    text-align: center;
+}
+
+.advice-container h2 {
+    font-size: 40px;
+    margin-bottom: 7px;
+}
+
+/* Button style */
+button {
+    background-color: #694A41; /* Dark brown for the button */
+    color: #F8EFE3; /* Match the header background color for text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 28px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #54392D; /* Darker brown for button hover */
+}
+
+/* Popup style */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+}
+
+.modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 80%;
+    text-align: center;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Footer style */
+footer {
+    background: #F8EFE3; /* Match the header background color */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add your own custom CSS styles below if needed */
